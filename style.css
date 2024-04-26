@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: rgba(176, 104, 233, 1);
+}
+.FAQ {
+  width: 92rem;
+  height: 50.9rem;
+  margin: 10% auto;
+  background-color: white;
+  border-radius: 1.2rem;
+  display: flex;
+}
+.img {
+  margin-top: 7rem;
+}
+.text-list {
+  margin-top: 6.5rem;
+  margin-left: 8.7rem;
+}
+.text-list h2 {
+  margin-bottom: 4.5rem;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  color: rgba(30, 31, 54, 1);
+}
+.list {
+  width: 35rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid rgba(232, 232, 234, 1);
+  margin-top: 1.6rem;
+}
+.list div {
+  display: flex;
+  justify-content: space-between;
+}
+.list div h6 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(75, 76, 95, 1);
+}
+.list p {
+  display: none;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: rgba(120, 120, 135, 1);
+  margin-top: 1rem;
+}
+.text {
+  display: none;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: rgba(120, 120, 135, 1);
+}
+.list img {
+  width: 0.8rem;
+  height: 0.4rem;
+  cursor: pointer;
+}
+.close {
+  width: 0.8rem;
+  height: 0.4rem;
+  cursor: pointer;
+  display: none;
+}
+.list h6:hover {
+  color: red;
+  transition: 2s;
+  cursor: pointer;
+}
+.svg {
+  position: absolute;
+  bottom: -1rem;
+  left: 7rem;
+  top: 34rem;
+}
+
+@media screen and (max-width: 500px) {
+  .svg {
+    display: none;
+  }
+  .FAQ {
+    width: 32.7rem;
+    height: 53.7rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 25%;
+  }
+  .img {
+    margin-top: -10rem;
+  }
+  .img2 {
+    margin-top: 0rem;
+    width: 23.85rem;
+    height: 17.9rem;
+  }
+  .text-list {
+    margin-left: 0rem;
+  }
+  .list {
+    width: 27rem;
+  }
+}
